@@ -292,7 +292,9 @@ article.active {
   z-index: -1;
 }
 
-
+ion-icon {
+  pointer-events: none;
+ }
 
 
 
