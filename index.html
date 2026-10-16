@@ -1,1252 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoolestNima</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo-CN.jpg" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090c10">
+  <meta name="description" content="Nima Etemad Golestani is an AI software engineer and game developer working across applied AI, game systems, and interactive experiences.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nima Etemad Golestani — AI & Interactive Systems">
+  <meta property="og:description" content="Building intelligent systems and playful experiences, from applied AI to game development.">
+  <title>Nima Etemad Golestani — AI & Interactive Systems</title>
+  <link rel="icon" href="./assets/images/nima-mark.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js" defer></script>
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/myAvatar.png" alt="Nima Etemad Golestani" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Nima Etemad Golestani">Nima E.Golestani</h1>
-
-          <p class="title">Game Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:nima.golestani2016@gmail.com" class="contact-link">nima.golestani2016@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+989033750231" class="contact-link">+98 (903) 3750231</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2000-04-12">April 12, 2000</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Mashhad, Khorasan Razavi, Iran</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://linkedin.com/in/nima-e-golestani" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/nima265" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://t.me/Nima265" class="social-link">
-              <ion-icon name="paper-plane-outline"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-         <!--
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-           -->
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Hi I'm Nima 👋 <br/> 
-            I'm Game Developer and Unity Engine Specialist.
-            I enjoy this journey that I started.
-          </p>
-
-          <p>
-            My job is to build your imagination as a Game that it is functional and user-friendly but at the same time attractive.
-            My aim is to bring across your message and identity in the most creative way.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo-GameDev.png" alt="Game development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Game Development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of Games at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo-engine.png
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Unity Engine Specialist</h4>
-
-                <p class="service-item-text">
-                  working on Game engines espesially Unity and write fully functional assets.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/logo-ML.png" alt="Machine Learning" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine Learning</h4>
-
-                <p class="service-item-text">
-                  I really liked to read and learn about Machine Learning, espesially Reinforment Learning and it use on Game industry.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Content Creation</h4>
-
-                <p class="service-item-text">
-                  I enjoy to make videos and share my knowledge and feels with everyone.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        
-        
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-        -->
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-      -->
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#overview" aria-label="Nima Etemad Golestani, overview">
+      <span class="wordmark-icon">n<span>.</span></span>
+      <span class="wordmark-name">NIMA <span>ETEMAD GOLESTANI</span></span>
+    </a>
+    <div class="header-location"><span class="status-dot"></span><span>Mashhad, Iran</span><span class="header-divider">/</span><span>AI · Games · Research</span></div>
+    <a class="header-contact" href="mailto:nima.golestani2016@gmail.com">Let's talk <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main-content" class="site-main">
+    <nav class="tab-nav" role="tablist" aria-label="Portfolio sections">
+      <button class="tab-button is-active" id="tab-overview" type="button" role="tab" aria-selected="true" aria-controls="panel-overview" tabindex="0" data-tab="overview"><span>01</span> Overview</button>
+      <button class="tab-button" id="tab-work" type="button" role="tab" aria-selected="false" aria-controls="panel-work" tabindex="-1" data-tab="work"><span>02</span> Work</button>
+      <button class="tab-button" id="tab-research" type="button" role="tab" aria-selected="false" aria-controls="panel-research" tabindex="-1" data-tab="research"><span>03</span> Research</button>
+      <button class="tab-button" id="tab-experience" type="button" role="tab" aria-selected="false" aria-controls="panel-experience" tabindex="-1" data-tab="experience"><span>04</span> Experience</button>
+      <button class="tab-button" id="tab-contact" type="button" role="tab" aria-selected="false" aria-controls="panel-contact" tabindex="-1" data-tab="contact"><span>05</span> Contact</button>
+    </nav>
+
+    <section class="tab-panel is-active" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview" tabindex="0" data-panel="overview">
+      <div class="hero-grid">
+        <div class="hero-copy" data-reveal>
+          <div class="eyebrow"><span class="eyebrow-line"></span> AI SOFTWARE ENGINEER <span class="eyebrow-dot">·</span> GAME DEVELOPER</div>
+          <h1>Building where <span class="text-lime">intelligence</span><br>meets <span class="text-outline">play.</span></h1>
+          <p class="hero-intro">I’m Nima — an engineer exploring how AI and interactive systems can make software more useful, expressive, and fun.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" data-open-tab="work">Explore selected work <span aria-hidden="true">↘</span></button>
+            <a class="button button-quiet" href="./assets/files/Nima-Etemad-Golestani-CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Game Developer at White Designers/Liam Games</h4>
-
-              <span>2021 — 2024</span>
-
-              <p class="timeline-text">
-                • Developed gameplay systems and interactive features on polished Unity/WebGL titles, following clean code practices
-                  and object-oriented design principles.
-                <br/>
-                <br/>• Integrated gameplay mechanics, and optimized performance, leading to smoother user experience. end-to-end pipeline
-                  systems and gameplay scripts, leveraging version control (Git), debugging tools, and applying design patterns to ensure
-                  modular, scalable code.
-                <br/>
-                <br/> • Balanced project scope in workflows, managing time and deliverables effectively to meet milestones; consistently
-                  aligned technical solutions with creative vision in collaboration with designers and artists.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Member of Scientific Association of Computer Engineering Departemant</h4>
-
-              <span>2020 — 2022</span>
-
-              <p class="timeline-text">
-                
-                 • Assisting students in course selection and academic planning
-            
-              </p>
-
-            </li>
-
-            <!-- <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Hardware Technician</h4>
-
-              <span>2019 — 2019</span>
-
-              <p class="timeline-text">
-                •  Troubleshooting and repairing computer hardware
-                 <br/>• Gaining knowledge in computer architecture and hardware components
-
-              </p>
-
-            </li> -->
-
-          </ol>
-
-        </section>
-
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
+          <div class="hero-links">
+            <a href="https://github.com/nima265" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://scholar.google.com/citations?hl=en&amp;user=0-c6yZQAAAAJ" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+            <a href="https://orcid.org/0009-0003-3609-3579" target="_blank" rel="noreferrer">ORCID <span aria-hidden="true">↗</span></a>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Islamic Azad University</h4>
-              <h4 class="h4 timeline-item-title">M.Sc. in Computer Engineering</h4>
-              <span>2023 — Peresent</span>
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Islamic Azad University</h4>
-              <h4 class="h4 timeline-item-title">B.Sc. in Computer Engineering</h4>
-              <span>2018 — 2023</span>
-
-              <p class="timeline-text">
-                Grade: 16.6/20 | GPA : 3.3/4 | last two years : 18/20 (3.7/4) | Thesis score : 20/20
-              </p>
-
-            </li>
-
-           
-            <!--
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-             -->
-          </ol>
-
-        </section>
-
-        
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Game Development</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Unity Development</h5>
-                <data value="65">65%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 65%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Research</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Video Editing</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-           <section class = "myResume">
-            <br/>
-        <h3 class="h3 skills-title">My CV</h3>
-        <p class="timeline-text">
-            You can easily download my CV below 👇
-        </p> 
-        <div style="display: flex; flex-direction: row-reverse;">
-          <a href="Nima Etemad Golestani's CV.pdf" download="Nima Etemad Golestani's CV.pdf">
-         <button class="form-btn" type="submit" >
-           <ion-icon name="download"></ion-icon>
-           <span>Download CV</span>
-          </button>
-         </a> 
-
-         <!-- <a href="Nima_Etemad_Golestani_Professional_CV.pdf" download="Nima_Etemad_Golestani_Professional_CV.pdf">
-          <button class="form-btn" type="submit" >
-            <ion-icon name="download"></ion-icon>
-            <span>Download Professional CV</span>
-           </button>
-          </a> -->
         </div>
-        
-        </section>
 
-      </article>
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-                ...
-        <section class="contact-info">
-          <h3 class="h3">Get in Touch</h3>
-          <!-- make the below text white -->
-          <h4 style="color: rgb(252, 203, 6);">If you have any questions or just want to say hello, feel free to contact me through the form below or via LinkedIn or email.</h4>
-        </section>
-        ...
-        
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="nima-e-golestani" data-version="v1"></div>
-              
-
-        <!-- <div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=h9nrpkibai1edpakjzdozmpfd&cover_image=true&theme=default&show_offline=false&background_color=121212" /></div>   -->
-
-
-        <!-- <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2209.2287795890284!2d59.59378299273992!3d36.29118267633679!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1670098130386!5m2!1sen!2s"
-              width="400" height="300" loading="lazy"></iframe>
+        <div class="hero-visual" role="group" aria-label="Portrait and profile highlights for Nima Etemad Golestani" data-reveal>
+          <div class="visual-topline"><span>INTERACTIVE SYSTEMS</span><span>01 / 05</span></div>
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <figure class="portrait-frame">
+            <img src="./assets/images/myAvatar.png" alt="Nima Etemad Golestani">
+            <figcaption><span class="portrait-status"></span><span>NIMA ETEMAD GOLESTANI</span></figcaption>
           </figure>
-        </section> -->
+          <div class="visual-node node-a"></div><div class="visual-node node-b"></div><div class="visual-node node-c"></div>
+          <div class="visual-chip chip-ai"><span class="chip-icon">✳</span><span>APPLIED AI<br><b>search · learn · reason</b></span></div>
+          <div class="visual-chip chip-game"><span class="chip-icon chip-icon-lime">⌘</span><span>GAME SYSTEMS<br><b>play · adapt · evolve</b></span></div>
+          <div class="visual-caption"><span class="caption-pulse"></span> BUILDING AT THE INTERSECTION</div>
+          <div class="visual-grid" aria-hidden="true"></div>
+        </div>
+      </div>
 
-        <section class="contact-form">
+      <div class="fact-strip" aria-label="Selected highlights" data-reveal>
+        <div class="fact-item"><span class="fact-number">19.22<span>/20</span></span><span class="fact-label">MSc overall GPA</span></div>
+        <div class="fact-item"><span class="fact-number">02</span><span class="fact-label">Published research papers</span></div>
+        <div class="fact-item"><span class="fact-number">3.5<span>M</span></span><span class="fact-label">ML-Agents training steps</span></div>
+        <div class="fact-item"><span class="fact-number">#02</span><span class="fact-label">Among 52 MSc classmates</span></div>
+      </div>
 
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
+      <section class="intro-section section-block" data-reveal>
+        <div class="section-kicker"><span>01</span><span class="kicker-rule"></span><span>A LITTLE ABOUT ME</span></div>
+        <div class="intro-columns">
+          <h2>Curious by nature.<br><span class="text-muted">Builder by practice.</span></h2>
+          <div class="intro-body">
+            <p>My work spans applied AI, computer engineering, and game development. At Armitaj, I build AI-powered software with pre-trained and fine-tuned models; before that, I spent several years creating Unity experiences for WebGL and mobile web.</p>
+            <p>I’m currently pursuing an M.Sc. in Computer Engineering, with research around game reviews, language models, and the ways interactive experiences can support learning.</p>
+            <button class="text-link" type="button" data-open-tab="experience">More about my path <span aria-hidden="true">→</span></button>
           </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-
-
-    </div>
-
+        </div>
+      </section>
+
+      <section class="featured-section section-block" data-reveal>
+        <div class="section-heading-row">
+          <div><div class="section-kicker"><span>02</span><span class="kicker-rule"></span><span>SELECTED WORK</span></div><h2 class="section-title">A few things I’ve <span class="text-lime">made.</span></h2></div>
+          <button class="text-link view-all" type="button" data-open-tab="work">View all projects <span aria-hidden="true">→</span></button>
+        </div>
+        <article class="featured-project">
+          <div class="featured-art" aria-hidden="true">
+            <div class="patch-window">
+              <div class="window-top"><span></span><span></span><span></span><b>DOTA 2 / PATCH INTELLIGENCE</b></div>
+              <div class="query-label">ASK THE PATCH ARCHIVE</div>
+              <div class="query-box">What changed for Drow Ranger? <span>↵</span></div>
+              <div class="answer-row"><span class="answer-mark">✳</span><span>Grounded answer with <b>patch citations</b></span></div>
+              <div class="source-line"><span>7.36c</span><i></i><span>HEROES / DROW RANGER</span></div>
+            </div>
+            <div class="art-orb" aria-hidden="true"></div>
+            <span class="art-coordinate">RAG SYSTEM / 2026</span>
+          </div>
+          <div class="featured-copy">
+            <div class="project-meta"><span>FEATURED PROJECT</span><span>01 — AI / RAG</span></div>
+            <h3>Dota 2 Patch Analyzer</h3>
+            <p>A retrieval-augmented assistant for exploring Dota 2 patch notes. Semantic search finds relevant updates; an LLM turns them into answers with sources.</p>
+            <div class="tag-list"><span>Python</span><span>FAISS</span><span>Sentence Transformers</span><span>LLM</span></div>
+            <a class="project-link" href="https://github.com/nima265/Dota-2-Patch-Analyzer" target="_blank" rel="noreferrer">Explore repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </section>
+
+      <div class="panel-footer"><span>DESIGNED & BUILT BY NIMA</span><span>AI × GAMES × RESEARCH</span><span>© <span data-year>2026</span></span></div>
+    </section>
+
+    <section class="tab-panel" id="panel-work" role="tabpanel" aria-labelledby="tab-work" tabindex="0" data-panel="work" hidden>
+      <header class="panel-heading" data-reveal>
+        <div class="section-kicker"><span>02</span><span class="kicker-rule"></span><span>SELECTED PROJECTS</span></div>
+        <h1>Ideas, <span class="text-lime">in practice.</span></h1>
+        <p>A mix of applied AI, research tools, and game experiences — each one a chance to learn by building.</p>
+      </header>
+      <div class="project-filters" role="group" aria-label="Filter projects">
+        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+        <button class="filter-button" type="button" data-filter="ai" aria-pressed="false">AI & research</button>
+        <button class="filter-button" type="button" data-filter="games" aria-pressed="false">Games</button>
+        <button class="filter-button" type="button" data-filter="tools" aria-pressed="false">Tools</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-card-large" data-project data-category="ai" data-reveal>
+          <div class="card-art art-patch" aria-hidden="true"><div class="mini-code"><span>PATCH NOTES / 7.36</span><b>Find the signal<br>in every update.</b><i>semantic retrieval_</i></div><div class="mini-rings"></div><span class="art-number">01</span></div>
+          <div class="project-card-body"><div class="project-meta"><span>AI · RETRIEVAL</span><span>JUN 2026</span></div><h2>Dota 2 Patch Analyzer</h2><p>Ask natural-language questions across Dota 2 patches. FAISS and Sentence Transformers power retrieval; answers include patch and section sources.</p><div class="tag-list"><span>Python</span><span>FAISS</span><span>RAG</span></div><a class="project-link" href="https://github.com/nima265/Dota-2-Patch-Analyzer" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card" data-project data-category="tools" data-reveal>
+          <div class="card-art art-steam" aria-hidden="true"><div class="review-stack"><div>★★★★★ <span>review</span></div><div>★★★☆☆ <span>review</span></div><div>★★★★☆ <span>review</span></div><div>★★★★★ <span>review</span></div></div><span class="art-number">02</span><span class="orbit-label">STEAM / DATA</span></div>
+          <div class="project-card-body"><div class="project-meta"><span>DATA TOOL</span><span>DEC 2025</span></div><h2>Steam Review Collector</h2><p>A Python utility for collecting and exporting Steam reviews, with filters for title, review length, count, and date.</p><div class="tag-list"><span>Python</span><span>Steam Web API</span><span>CSV</span></div><a class="project-link" href="https://github.com/nima265/Steam-Review-Collector" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card" data-project data-category="games" data-reveal>
+          <div class="card-art art-catch" aria-hidden="true"><div class="game-board"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-number">03</span><span class="board-caption">LEARNED BEHAVIOR / 3D</span></div>
+          <div class="project-card-body"><div class="project-meta"><span>GAME AI</span><span>DEC 2022</span></div><h2>Catch First!</h2><p>A 3D zero-player game built with Unity ML-Agents, using a neural policy trained for up to 3.5 million steps.</p><div class="tag-list"><span>Unity</span><span>C#</span><span>ML-Agents</span></div><a class="project-link" href="https://github.com/nima265/CatchFirst" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card" data-project data-category="games" data-reveal>
+          <div class="card-art art-flappy" aria-hidden="true"><div class="pixel-sky"><span class="pixel-bird">◆</span><span class="pixel-pipe pipe-a"></span><span class="pixel-pipe pipe-b"></span><span class="pixel-cloud"></span><span class="pixel-ground"></span></div><span class="art-number">04</span><span class="board-caption">NEAT · EVOLUTIONARY AI</span></div>
+          <div class="project-card-body"><div class="project-meta"><span>GAME · AI</span><span>FEB 2025</span></div><h2>Flappy Fly</h2><p>A Python take on the familiar side-scroller, with agents learning to play through the NEAT algorithm.</p><div class="tag-list"><span>Python</span><span>NEAT</span><span>Game AI</span></div><a class="project-link" href="https://github.com/nima265/Flappy-Fly" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card" data-project data-category="games" data-reveal>
+          <div class="card-art art-drift" aria-hidden="true"><div class="race-track"><span class="track-dash"></span><span class="race-car">➤</span><span class="track-glow"></span></div><span class="art-number">05</span><span class="board-caption">UNITY · WEBGL / H5</span></div>
+          <div class="project-card-body"><div class="project-meta"><span>GAME DEVELOPMENT</span><span>JAN — MAY 2024</span></div><h2>Drift</h2><p>A 2D top-down racing game with custom HUD, drifting mechanics, checkpoint logic, and responsive controls for WebGL/H5.</p><div class="tag-list"><span>Unity</span><span>C#</span><span>WebGL</span></div><span class="project-source">Selected work from CV</span></div>
+        </article>
+        <article class="project-card" data-project data-category="games" data-reveal>
+          <div class="card-art art-stone" aria-hidden="true"><div class="stone-scene"><span class="sun"></span><span class="hill hill-back"></span><span class="hill hill-front"></span><span class="stone-player">●</span></div><span class="art-number">06</span><span class="board-caption">PLAY TO LEARN</span></div>
+          <div class="project-card-body"><div class="project-meta"><span>GAME-BASED LEARNING</span><span>JAN 2025</span></div><h2>Stone Age</h2><p>A Unity platformer designed to teach English to first-year high-school students through interactive learning activities.</p><div class="tag-list"><span>Unity</span><span>C#</span><span>Education</span></div><span class="project-source">Selected work from CV</span></div>
+        </article>
+      </div>
+      <div class="project-note"><span class="note-icon">↗</span><p>More game development work, including <b>Gnar</b> and <b>Runcell</b>, is outlined in my CV.</p><a class="text-link" href="./assets/files/Nima-Etemad-Golestani-CV.pdf" download>Get the full CV <span aria-hidden="true">→</span></a></div>
+      <div class="panel-footer"><span>SELECTED PROJECTS</span><span>BUILD · TEST · LEARN</span><span>© <span data-year>2026</span></span></div>
+    </section>
+
+    <section class="tab-panel" id="panel-research" role="tabpanel" aria-labelledby="tab-research" tabindex="0" data-panel="research" hidden>
+      <header class="panel-heading research-heading" data-reveal>
+        <div class="section-kicker"><span>03</span><span class="kicker-rule"></span><span>RESEARCH & PUBLICATIONS</span></div>
+        <h1>Questions worth <span class="text-lime">exploring.</span></h1>
+        <p>Research at the intersection of language technology, game experiences, and human-centered learning.</p>
+        <a class="button button-secondary" href="https://scholar.google.com/citations?hl=en&amp;user=0-c6yZQAAAAJ" target="_blank" rel="noreferrer">Open Google Scholar <span aria-hidden="true">↗</span></a>
+      </header>
+      <div class="research-layout">
+        <div class="publication-list">
+          <article class="publication-card" data-reveal>
+            <div class="publication-index">01 <span>JOURNAL ARTICLE</span></div>
+            <div class="publication-content"><div class="publication-meta"><span>DISCOVER COMPUTING</span><span>2026</span><span class="publication-status">PUBLISHED</span></div><h2>Lightweight hybrid adaptive weighted ensemble integrating fine-tuned SBERT with lexical and statistical models for robust Steam review sentiment classification</h2><p>N. Etemad Golestani, M. H. Moattar · <i>Discover Computing</i> 29, 367 (2026).</p><a class="project-link" href="https://doi.org/10.1007/s10791-026-10296-6" target="_blank" rel="noreferrer">Read the paper <span aria-hidden="true">↗</span></a></div>
+            <div class="publication-symbol" aria-hidden="true">↗</div>
+          </article>
+          <article class="publication-card" data-reveal>
+            <div class="publication-index">02 <span>RESEARCH ARTICLE</span></div>
+            <div class="publication-content"><div class="publication-meta"><span>KMEB</span><span>2026</span><span class="publication-status">PUBLISHED</span></div><h2>Game-Based Learning for Human-Centered Smart Education: A Focused Integrative Review of Evidence and Design Conditions</h2><p>N. Etemad Golestani, D. Bahrepour · KMEB 2026 (A-2083-3168).</p><a class="project-link" href="https://scholar.google.com/citations?hl=en&amp;user=0-c6yZQAAAAJ" target="_blank" rel="noreferrer">Find on Google Scholar <span aria-hidden="true">↗</span></a></div>
+            <div class="publication-symbol" aria-hidden="true">↗</div>
+          </article>
+          <article class="publication-card publication-pending" data-reveal>
+            <div class="publication-index">03 <span>MANUSCRIPT</span></div>
+            <div class="publication-content"><div class="publication-meta"><span>GAME REVIEW SENTIMENT</span><span>2026</span><span class="publication-status status-review">UNDER REVIEW</span></div><h2>Enhancing sentiment analysis on game reviews using few-shot prompting on large language models and review importance score estimation</h2><p>N. Etemad Golestani, G. Veisi, E. Kheir Khah.</p><span class="project-source">Manuscript under review</span></div>
+            <div class="publication-symbol" aria-hidden="true">◌</div>
+          </article>
+        </div>
+        <aside class="research-aside" data-reveal>
+          <div class="aside-label">RESEARCH INTERESTS</div>
+          <h2>What keeps<br>me curious.</h2>
+          <ul class="interest-list"><li><span>01</span>Game AI</li><li><span>02</span>Generative AI</li><li><span>03</span>Natural language processing</li><li><span>04</span>Reinforcement learning</li><li><span>05</span>Game-based learning</li><li><span>06</span>Video games</li></ul>
+          <div class="research-note"><span>THESIS</span><p>Enhancing sentiment analysis on game reviews using few-shot prompting with large language models and review importance score estimation.</p></div>
+        </aside>
+      </div>
+      <div class="panel-footer"><span>RESEARCH & PUBLICATIONS</span><span>ASK · TEST · REFINE</span><span>© <span data-year>2026</span></span></div>
+    </section>
+
+    <section class="tab-panel" id="panel-experience" role="tabpanel" aria-labelledby="tab-experience" tabindex="0" data-panel="experience" hidden>
+      <header class="panel-heading" data-reveal>
+        <div class="section-kicker"><span>04</span><span class="kicker-rule"></span><span>EXPERIENCE & EDUCATION</span></div>
+        <h1>A path shaped by <span class="text-lime">curiosity.</span></h1>
+        <p>From building games to building with AI, I like work that brings technical ideas close to people.</p>
+        <a class="button button-secondary" href="./assets/files/Nima-Etemad-Golestani-CV.pdf" download>Download full CV <span aria-hidden="true">↓</span></a>
+      </header>
+      <div class="experience-layout">
+        <div class="experience-main">
+          <div class="timeline-heading"><span class="timeline-icon">✳</span><div><span class="aside-label">CAREER</span><h2>Experience</h2></div></div>
+          <div class="timeline">
+            <article class="timeline-entry current-entry" data-reveal><div class="timeline-date">JUN 2026 — NOW <span class="current-pill"><i></i> CURRENT</span></div><div class="timeline-content"><h3>AI Software Engineer</h3><div class="timeline-org">Armitaj <span>· Mashhad, Iran</span></div><p>Building AI-powered software solutions for commercial and residential towers, using pre-trained and fine-tuned models to improve user experiences and support new products.</p><div class="tag-list"><span>Applied AI</span><span>LLMs</span><span>Product engineering</span></div></div></article>
+            <article class="timeline-entry" data-reveal><div class="timeline-date">AUG 2021 — MAY 2024</div><div class="timeline-content"><h3>Game Developer · Unity Engine Specialist</h3><div class="timeline-org">White Designers Studios <span>· Mashhad, Iran</span></div><p>Developed casual and hyper-casual games, contributing to gameplay programming, environment design, and Unity/WebGL projects.</p><div class="tag-list"><span>Unity</span><span>C#</span><span>WebGL</span></div></div></article>
+            <article class="timeline-entry" data-reveal><div class="timeline-date">SEP 2026</div><div class="timeline-content"><h3>Conference Reviewer</h3><div class="timeline-org">ICCKE 2026 <span>· Mashhad, Iran</span></div><p>Reviewed submissions in machine learning, data analysis, classification, regression, and ensemble learning for the 16th International Conference on Computer and Knowledge Engineering.</p></div></article>
+            <article class="timeline-entry" data-reveal><div class="timeline-date">2023 — 2024</div><div class="timeline-content"><h3>Teaching Assistant · Game Development</h3><div class="timeline-org">Ferdows Institute of Higher Education & Game Dojo</div><p>Supported course delivery, reviewed assignments, and helped students with debugging, project design, and implementation.</p></div></article>
+          </div>
+          <div class="timeline-heading education-heading"><span class="timeline-icon">⌂</span><div><span class="aside-label">ACADEMICS</span><h2>Education</h2></div></div>
+          <div class="timeline">
+            <article class="timeline-entry education-entry" data-reveal><div class="timeline-date">SEP 2023 — PRESENT</div><div class="timeline-content"><h3>M.Sc. in Computer Engineering</h3><div class="timeline-org">Islamic Azad University, Mashhad Branch <span>· AI & Robotics</span></div><p>Overall GPA: <b>19.22/20</b>. Ranked second among 52 students in the M.Sc. program.</p></div></article>
+            <article class="timeline-entry education-entry" data-reveal><div class="timeline-date">SEP 2018 — FEB 2023</div><div class="timeline-content"><h3>B.Sc. in Computer Engineering</h3><div class="timeline-org">Islamic Azad University, Mashhad Branch</div><p>Overall GPA: 16.58/20 · Last two years: 18/20.</p></div></article>
+          </div>
+        </div>
+        <aside class="skills-aside" data-reveal>
+          <div class="aside-label">TOOLKIT</div><h2>Things I work with.</h2>
+          <div class="skill-group"><span>PROGRAMMING</span><div class="skill-pills"><b>C#</b><b>Python</b><b>C++</b><b>TypeScript</b></div></div>
+          <div class="skill-group"><span>AI & DATA</span><div class="skill-pills"><b>LLMs</b><b>RAG</b><b>Scikit-learn</b><b>Pandas</b><b>NLTK</b><b>ML-Agents</b><b>Gym</b><b>TensorFlow</b><b>NumPy</b></div></div>
+          <div class="skill-group"><span>GAME & SOFTWARE</span><div class="skill-pills"><b>Unity</b><b>Unreal Engine</b><b>Cocos Creator</b><b>Git</b><b>Django</b><b>HTML / CSS</b></div></div>
+          <div class="honor-card"><span class="honor-icon">✳</span><div><span>HONOR · 2026</span><b>Second rank among 52 students</b><p>M.Sc. in Computer Engineering — AI & Robotics</p></div></div>
+          <div class="language-row"><span>LANGUAGES</span><p><b>Persian</b> Native<br><b>English</b> IELTS Academic mock: 7.0</p></div>
+        </aside>
+      </div>
+      <div class="panel-footer"><span>EXPERIENCE & EDUCATION</span><span>KEEP LEARNING</span><span>© <span data-year>2026</span></span></div>
+    </section>
+
+    <section class="tab-panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" tabindex="0" data-panel="contact" hidden>
+      <div class="contact-layout">
+        <div class="contact-copy" data-reveal>
+          <div class="section-kicker"><span>05</span><span class="kicker-rule"></span><span>GET IN TOUCH</span></div>
+          <h1>Have a good<br><span class="text-lime">question?</span></h1>
+          <p>I’m always glad to connect about applied AI, game development, research, or a thoughtful collaboration.</p>
+          <a class="button button-primary contact-email" href="mailto:nima.golestani2016@gmail.com">nima.golestani2016@gmail.com <span aria-hidden="true">↗</span></a>
+          <a class="secondary-email" href="mailto:nima.etemadgolestani@iau.ir">Academic email: nima.etemadgolestani@iau.ir</a>
+        </div>
+        <div class="contact-card" data-reveal>
+          <div class="contact-card-top"><span>ELSEWHERE ON THE INTERNET</span><span class="contact-spark">✳</span></div>
+          <a class="social-row" href="https://github.com/nima265" target="_blank" rel="noreferrer"><span class="social-icon">GH</span><span><b>GitHub</b><small>Code, experiments, and projects</small></span><i>↗</i></a>
+          <a class="social-row" href="https://scholar.google.com/citations?hl=en&amp;user=0-c6yZQAAAAJ" target="_blank" rel="noreferrer"><span class="social-icon social-scholar">GS</span><span><b>Google Scholar</b><small>Publications and research profile</small></span><i>↗</i></a>
+          <a class="social-row" href="https://linkedin.com/in/nima-e-golestani" target="_blank" rel="noreferrer"><span class="social-icon social-linkedin">in</span><span><b>LinkedIn</b><small>Professional profile</small></span><i>↗</i></a>
+          <a class="social-row" href="https://orcid.org/0009-0003-3609-3579" target="_blank" rel="noreferrer"><span class="social-icon social-orcid">iD</span><span><b>ORCID</b><small>Researcher identifier</small></span><i>↗</i></a>
+          <div class="contact-location"><span class="status-dot"></span> Based in Mashhad, Iran</div>
+        </div>
+      </div>
+      <div class="contact-bottom-note" data-reveal><span>THANKS FOR STOPPING BY</span><span>LET'S MAKE SOMETHING MEANINGFUL.</span></div>
+      <div class="panel-footer"><span>NIMA ETEMAD GOLESTANI</span><span>AI × GAMES × RESEARCH</span><span>© <span data-year>2026</span></span></div>
+    </section>
   </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
